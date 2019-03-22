@@ -1,0 +1,9 @@
+/* 
+  infoPlist.strings
+  Album
+
+  Created by Marshal on 2017/10/19.
+  Copyright © 2017年 Marshal. All rights reserved.
+*/
+
+"NSPhotoLibraryUsageDescription" = "Photo album need access to your photo album, can have a better experience!";

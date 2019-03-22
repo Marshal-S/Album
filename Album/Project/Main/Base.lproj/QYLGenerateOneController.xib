@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QYLGenerateOneController">
+            <connections>
+                <outlet property="btnGenerate" destination="7Mn-Tb-QHI" id="hAD-jd-5Cb"/>
+                <outlet property="tfFirst" destination="kWc-O7-YLB" id="k6w-j4-mx1"/>
+                <outlet property="tfLast" destination="LVm-NV-3LS" id="ocn-oR-9j3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="最多4个字符" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="kWc-O7-YLB">
+                    <rect key="frame" x="30" y="84" width="260" height="30"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="wjr-py-Mry"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                    <connections>
+                        <action selector="onValueChanged:" destination="-1" eventType="editingChanged" id="IBy-zt-0sl"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="最多12个字符" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="LVm-NV-3LS">
+                    <rect key="frame" x="30" y="144" width="260" height="30"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="UIy-IB-xiR"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="go"/>
+                    <connections>
+                        <action selector="onValueChanged:" destination="-1" eventType="editingChanged" id="PpH-6b-O0Q"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Mn-Tb-QHI">
+                    <rect key="frame" x="30" y="214" width="260" height="45"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="AUY-97-cgi"/>
+                    </constraints>
+                    <state key="normal" title="一键定制">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickToGenerate:" destination="-1" eventType="touchUpInside" id="7a9-Nk-yOf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7Mn-Tb-QHI" firstAttribute="top" secondItem="LVm-NV-3LS" secondAttribute="bottom" constant="40" id="1Fg-Ho-Vfu"/>
+                <constraint firstAttribute="trailing" secondItem="kWc-O7-YLB" secondAttribute="trailing" constant="30" id="2bJ-OL-wkg"/>
+                <constraint firstItem="7Mn-Tb-QHI" firstAttribute="trailing" secondItem="LVm-NV-3LS" secondAttribute="trailing" id="BMl-pG-Ij9"/>
+                <constraint firstItem="LVm-NV-3LS" firstAttribute="top" secondItem="kWc-O7-YLB" secondAttribute="bottom" constant="30" id="N34-2Y-Bud"/>
+                <constraint firstItem="kWc-O7-YLB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="S1V-1E-BFs"/>
+                <constraint firstItem="7Mn-Tb-QHI" firstAttribute="leading" secondItem="LVm-NV-3LS" secondAttribute="leading" id="Swi-Ij-GRv"/>
+                <constraint firstItem="kWc-O7-YLB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="USs-f7-44f"/>
+                <constraint firstItem="LVm-NV-3LS" firstAttribute="trailing" secondItem="kWc-O7-YLB" secondAttribute="trailing" id="uhO-Dx-pMM"/>
+                <constraint firstItem="LVm-NV-3LS" firstAttribute="leading" secondItem="kWc-O7-YLB" secondAttribute="leading" id="vBA-75-Uh7"/>
+            </constraints>
+            <point key="canvasLocation" x="-89" y="-20"/>
+        </view>
+    </objects>
+</document>

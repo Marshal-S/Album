@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "批量生成"; ObjectID = "N1X-fy-znN"; */
+"N1X-fy-znN.normalTitle" = "Mass production";
+
+/* Class = "UITextField"; placeholder = "最多12个字符"; ObjectID = "bh8-5O-jsQ"; */
+"bh8-5O-jsQ.placeholder" = "Up to 12 characters";
+
+/* Class = "UIButton"; normalTitle = "随机姓名"; ObjectID = "qwZ-dh-maN"; */
+"qwZ-dh-maN.normalTitle" = "Random name";

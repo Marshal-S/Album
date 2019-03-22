@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  Album
+
+  Created by Marshal on 2017/10/19.
+  Copyright © 2017年 Marshal. All rights reserved.
+*/
+
+
+
+//QYLAuthorizationHandle
+"AuthorFormatter" = "You have not yet detected open %@ permissions %@";
+"Camera" = "Camera";
+"PhotoAlbum" = "Photo album";
+"UnuseCamera" = "Will not be able to use the camera related functions!";
+"UnusePhotoAlbum" = "Will not be able to use photo album related functions!";
+"ClickOkSetting" = "Click ok to set";
+"OK" = "OK";
+"TemporarilyNotSet" = "Not set";
+
+//QYLMainController
+"MyStyle" = "My style";
+"ConfirmDeleteTemplate" = "Confirm to delete this template";
+"Cancel" = "Cancel";
+"Determine" = "Determine";
+
+//QYLImagePickerHandle
+"UnableToOpenTheAlbum" = "Unable to open the album";
+
+//QYLCustomController
+"StyleProduction" = "Style production";
+"Complete" = "Complete";
+"SaveSuccessfully" = "Save successfully!";
+"FailToSave" = "Fail to save!";
+
+//QYLCheckController
+"CurrentTemplate" = "Current template";
+"Edit" = "Edit";
+
+//QYLGenerateManyController
+"RandomSurnames" = "Random surnames";
+"RandomName" = "Random name";
+
+//QYLDetailKindData
+"HorizontalText" = "Horizontal text";
+"VerticalText" = "Vertical text";
+
+//QYLDetailKindData
+"White" = "White";
+"Red" = "Red";
+"Black" = "Black";
+"Orange" = "Orange";
+"Gray" = "Gray";
+
+

@@ -1,0 +1,9 @@
+/* 
+  infoPlist.strings
+  Album
+
+  Created by Marshal on 2017/10/19.
+  Copyright © 2017年 Marshal. All rights reserved.
+*/
+
+"NSPhotoLibraryUsageDescription" = "相册需要访问您的相册，才能拥有更好的体验!";

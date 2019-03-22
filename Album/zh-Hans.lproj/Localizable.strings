@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  Album
+
+  Created by Marshal on 2017/10/19.
+  Copyright © 2017年 Marshal. All rights reserved.
+*/
+
+//QYLAuthorizationHandle
+"AuthorFormatter" = "检测到您尚未打开%@权限%@";
+"Camera" = "相机";
+"PhotoAlbum" = "相册";
+"UnuseCamera" = "将无法使用相机相关功能!";
+"UnusePhotoAlbum" = "将无法使用相册相关功能!";
+"ClickOkSetting" = "点击好的去设置";
+"OK" = "好的";
+"TemporarilyNotSet" = "暂不设置";
+
+//QYLMainController
+"MyStyle" = "我的样式";
+"ConfirmDeleteTemplate" = "确认删除该模板";
+"Cancel" = "取消";
+"Determine" = "确定";
+
+//QYLImagePickerHandle
+"UnableToOpenTheAlbum" = "相册无法打开";
+
+//QYLCustomController
+"StyleProduction" = "样式制作";
+"Complete" = "完成";
+"SaveSuccessfully" = "保存成功！";
+"FailToSave" = "保存失败！";
+
+//QYLCheckController
+"CurrentTemplate" = "当前模板";
+"Edit" = "编辑";
+
+//QYLGenerateManyController
+"RandomSurnames" = "随机姓氏";
+"RandomName" = "随机名字";
+
+//QYLDetailKindData
+"HorizontalText" = "横文本";
+"VerticalText" = "竖文本";
+
+//QYLDetailKindData
+"White" = "白色";
+"Red" = "红色";
+"Black" = "黑色";
+"Orange" = "橙色";
+"Gray" = "灰色";
+
+

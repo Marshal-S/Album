@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "一键定制"; ObjectID = "7Mn-Tb-QHI"; */
+"7Mn-Tb-QHI.normalTitle" = "一键定制";
+
+/* Class = "UITextField"; placeholder = "最多12个字符"; ObjectID = "LVm-NV-3LS"; */
+"LVm-NV-3LS.placeholder" = "最多12个字符";
+
+/* Class = "UITextField"; placeholder = "最多4个字符"; ObjectID = "kWc-O7-YLB"; */
+"kWc-O7-YLB.placeholder" = "最多4个字符";

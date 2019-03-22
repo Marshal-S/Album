@@ -1,0 +1,16 @@
+//
+//  QYLAlbum.pch
+//  Album
+//
+//  Created by Marshal on 2017/10/11.
+//  Copyright © 2017年 Marshal. All rights reserved.
+//
+
+#ifndef QYLAlbum_pch
+#define QYLAlbum_pch
+
+#import "Marco.h"
+#import "QYLString.h"
+#import "QYLDefaultNumber.h"
+
+#endif /* QYLAlbum_pch */
